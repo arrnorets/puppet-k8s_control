@@ -16,7 +16,7 @@ This module was tested on CentOS 7.
 # 3. Installation
 ```yaml
 mod 'k8s_workernode',
-    :git => 'https://github.com/arrnorets/puppet-k8s_control_plane.git',
+    :git => 'https://github.com/arrnorets/puppet-k8s_control.git',
     :ref => 'main'
 ```
 
