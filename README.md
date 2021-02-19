@@ -225,3 +225,7 @@ It will install apiserver, kube-scheduler and control-manager pckages, put keys,
 /var/lib/k8s/service-accounts.crt
 ```
 
+Additional note: after initial deployment, you have to perform the followinf command in order to grant cluster-admin rol eto your admin user:
+```bash
+/opt/k8s/kubectl create clusterrolebinding root-cluster-admin-binding --clusterrole=cluster-admin --user=admin
+```
